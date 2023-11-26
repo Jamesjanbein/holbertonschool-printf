@@ -15,6 +15,7 @@ unsigned int convert_di(va_list args, buffer_t *output,
 	long int d, copy;
 	unsigned int ret = 0, count = 0;
 	char pad, space = ' ', neg = '-', plus = '+';
+
 	if (len == LONG)
 		d = va_arg(args, long int);
 	else

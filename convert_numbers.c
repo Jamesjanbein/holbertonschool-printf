@@ -91,6 +91,7 @@ unsigned int convert_u(va_list args, buffer_t *output,
 {
 	unsigned long int num;
 	unsigned int ret = 0;
+
 	if (len == LONG)
 		num = va_arg(args, unsigned long int);
 	else
